@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyComp - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyComp</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="products-container">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- Product Cards -->
+      <div class="product-card" data-id="1" data-name="AMD Ryzen 5 5600X" data-price="220">
+        <img src="https://via.placeholder.com/200" alt="Ryzen 5">
+        <h3>AMD Ryzen 5 5600X</h3>
+        <p>$220</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-id="2" data-name="Gigabyte RX 7600 XT" data-price="380">
+        <img src="https://via.placeholder.com/200" alt="RX 7600 XT">
+        <h3>Gigabyte RX 7600 XT</h3>
+        <p>$380</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-id="3" data-name="Corsair Vengeance 16GB DDR4" data-price="75">
+        <img src="https://via.placeholder.com/200" alt="Corsair RAM">
+        <h3>Corsair Vengeance 16GB DDR4</h3>
+        <p>$75</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-id="4" data-name="Kingston NV2 1TB SSD" data-price="60">
+        <img src="https://via.placeholder.com/200" alt="Kingston SSD">
+        <h3>Kingston NV2 1TB SSD</h3>
+        <p>$60</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MyComp. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
